@@ -11,11 +11,12 @@ module.exports = {
 	},
     webpack: {
         alias: {
-            'components': path.join(path.resolve(__dirname, './src/components')),
-			'containers': path.join(path.resolve(__dirname, './src/containers')),
-			'redux/actions': path.join(path.resolve(__dirname, './src/actions')),
-			'redux/reducers': path.join(path.resolve(__dirname, './src/reducers')),
-			'router': path.join(path.resolve(__dirname, './src/router')),
+			'polyfills': path.resolve(__dirname, './src/polyfills'),
+            'components': path.resolve(__dirname, './src/components'),
+			'containers': path.resolve(__dirname, './src/containers'),
+			'redux/actions': path.resolve(__dirname, './src/actions'),
+			'redux/reducers': path.resolve(__dirname, './src/reducers'),
+			'router': path.resolve(__dirname, './src/router'),
         }
     }
 }
